@@ -1,0 +1,114 @@
+.featured {
+    background-image: url(/img/featured-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1080px;
+    position: relative;
+}
+
+.featured-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.featured-article {
+    padding-bottom: 104px;
+    max-width: 40%;
+}
+
+
+
+.featured-btn {
+    padding: 18px 30px;
+    margin-bottom: 18px;
+    background-color: #E8594E;
+    border-radius: 24px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.featured-title {
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+
+
+.featured-subtitle {
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+.featured-btn--big {
+    background-color: #73AFBA;
+    padding: 33px 80px;
+    border-radius: 8px;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 2.18182px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.featured-stories {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 35.3%;
+    background-color: rgba(60, 74, 81, .9);
+    padding: 130px;
+}
+
+.featured-stories__titile {
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin-bottom: 94px;
+}
+
+.featured-stories__item {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(227, 227, 227, .1);
+    padding: 32px 0;
+}
+
+
+
+.featured-stories__img {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+
+.featured-stories__descr {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    /* padding-left: 32px;
+    padding-right: 35px; */
+}
+
+.feature-list__time {
+    font-family: 'SFProText-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.502293);
+
+}
+
+.featured-text {
+    margin-left: 32px;
+    padding-right: 35px;
+}

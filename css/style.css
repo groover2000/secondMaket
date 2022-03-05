@@ -1,0 +1,15 @@
+@import url('_fonts.css');
+@import url('_normalize.css');
+@import url('_global.css');
+@import url('_overall.css');
+@import url('_variables.css');
+@import url('_vendor.css');
+
+
+/*import modules */
+@import url('components/_header.css');
+@import url('components/_main.css');
+@import url('components/_become.css');
+@import url('components/_featured.css');
+@import url('components/_main_slider.css');
+@import url('components/_sign-up.css');
