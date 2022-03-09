@@ -1,0 +1,38 @@
+.inspirations {
+    background-color: #F2F2F2;
+    padding-top: 95px;
+    padding-bottom: 140px;
+}
+
+.inspirations-container {}
+
+.inspirations-title {
+    padding-bottom: 24px;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    color: #1C2E3D;
+}
+
+.inspirations-subtitle {
+    font-family: 'SFCompactText', sans-serif;
+    margin: 0 auto;
+    max-width: 634px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #788692;
+    margin-bottom: 95px;
+}
+
+.inspirations-items {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 600px 200px 200px;
+
+}
+
+.inspirations-item {
+    background-color: #1C2E3D;
+    height: 300px;
+}
